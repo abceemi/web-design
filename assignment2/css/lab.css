@@ -1,0 +1,28 @@
+body{
+  border: solid 0.5px black;
+}
+.header{
+  display: block;
+  margin: 8px;
+  height: 100px;
+}
+.header img{
+  max-width: 23%;
+  height: auto;
+  position: absolute;
+  left: 70px;
+}
+.nav{
+  border: solid 10px black;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  word-spacing: 40px;
+}
+.nav a{
+  color: white;
+  text-decoration: none;
+}
+.nav a:hover{
+  color: #d1de44;
+}
