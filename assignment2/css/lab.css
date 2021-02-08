@@ -1,16 +1,16 @@
 body{
-  border: solid 0.5px black;
+
 }
 .header{
-  display: block;
-  margin: 8px;
-  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px;
 }
 .header img{
-  max-width: 21%;
-  height: auto;
-  position: absolute;
-  left: 70px;
+  width: 21%;
+  margin-left: 55px;
+  padding-bottom: 15px;
 }
 .nav{
   border: solid 10px black;
@@ -18,6 +18,7 @@ body{
   font-family: arial;
   background-color: black;
   word-spacing: 57px;
+  height: 20%;
 }
 .nav a{
   color: white;
@@ -25,4 +26,53 @@ body{
 }
 .nav a:hover{
   color: #d1de44;
+}
+#mainphoto{
+  background-color: #b7b7b9;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  text-align: center;
+}
+#mainphoto img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border: solid white 1px;
+}
+#threeboxes{
+  display: flex;
+  width: 90%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  column-gap: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.column img{
+  width: 100%;
+}
+.column{
+  flex: 1;
+}
+#sidebar{
+  background-color: #e5e5e5;
+  padding: 10px;
+  overflow: scroll;
+  height: 340px;
+}
+.footer{
+  border: solid 10px black;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  word-spacing: 20px;
+}
+.footer a{
+  color: grey;
+  text-decoration: none;
+  font-size: 10px;
 }

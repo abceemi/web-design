@@ -4,14 +4,20 @@
 	<title>Coding with HTML/CSS</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<div id="container">
 
 <div class="flex">
-
 <header class="header">
-	<img src="img/logo.png">
+	<img src="img/logo.png" alt="logo">
+	<form action="/action_page.php">
+	<input type="text" name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
 </header>
+
 
 <nav class="nav">
 		<a href="../assignment2/fakelinks.html">HOME</a>
@@ -19,7 +25,49 @@
 		<a href="../assignment2/fakelinks.html">WORK</a>
 		<a href="../assignment2/fakelinks.html">NEWS</a>
 	</nav>
+</div>
 
+	<div id="mainphoto">
+	<img src="img/Photo-01.jpg" alt="">
+</div>
+
+<section id="threeboxes">
+	
+	<div class="column">
+		<img src="img/Photo-02.jpg" alt="">
+			<h1> Title Head </h1>
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				Duis aute irure dolor.</p>
+	</div>
+
+	<div class="column">
+		<img src="img/Photo-03 (1).jpg" alt="">
+			<h1> Title Head </h1>
+			p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				Duis aute irure dolor.</p>
+	</div>
+	<div class="column" id="sidebar">
+<aside>
+	<h1> Side Bar </h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</aside>
+</div>
+</section>
+
+<div class="footer">
+			<a href="../assignment2/fakelinks.html">HOME |</a>
+			<a href="../assignment2/fakelinks.html">ABOUT |</a>
+			<a href="../assignment2/fakelinks.html">WORK |</a>
+			<a href="../assignment2/fakelinks.html">NEWS </a>
 </div>
 
 </body>
